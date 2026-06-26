@@ -1,0 +1,28 @@
+# Datasets
+/data/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training / inference outputs
+runs/
+notebooks/runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
